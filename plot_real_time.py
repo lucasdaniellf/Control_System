@@ -2,12 +2,14 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import pandas as pd
 
+#It takes a bit too long to load, but it works.
+
 fig, (ax1, ax2, ax3) = plt.subplots(nrows=3, ncols=1, sharex='col')
 
 
 def animate(i):
 
-    data = pd.read_csv('data_1.csv')
+    data = pd.read_csv('data.csv')
     x = data['time']
     y1 = data['Voltage']
     y2 = data['Set-Point']
