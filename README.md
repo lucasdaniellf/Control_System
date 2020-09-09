@@ -9,4 +9,4 @@ The original project was developed using Peltier Cells, an analog circuit, an Ar
 
 The Control_System.py takes the place of the simulink. The way it is presented, it has the transfer function and compensators I used in my project, so I could simulate the response and see if the algorithm was working as intended (it is), but it can be used with any control systems, being required only the update of the system equations.
 
-The control system algorithm I used was based in this video "https://www.youtube.com/watch?v=6ivdfKfGp4k".
+The control system algorithm I used was based in the one presented in this video "https://www.youtube.com/watch?v=6ivdfKfGp4k".
